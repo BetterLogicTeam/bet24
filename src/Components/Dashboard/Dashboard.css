@@ -1,0 +1,274 @@
+.back_space {
+  padding: 1px 32px !important;
+  background-color: #72bbef;
+  margin-left: -23px;
+}
+.back_space1 {
+  padding: 1px 32px;
+  background-color: #faa9ba;
+  margin-right: -45px;
+}
+th.temp {
+  text-align: center;
+  padding: 0 32px 2px 0px;
+}
+th.temp2 span {
+  text-align: center;
+}
+.circle {
+  padding: 0 6px;
+  background-color: rgb(0, 166, 0);
+  border-radius: 50%;
+  font-size: 8px;
+}
+
+@media (max-width: 768px) {
+  .back_space {
+    padding: 1px 16px !important;
+    background-color: #72bbef;
+    margin-left: -11px;
+  }
+  .back_space1 {
+    padding: 1px 16px;
+    background-color: #faa9ba;
+    margin-right: -22px;
+    display: none !important;
+  }
+
+  th.temp {
+    text-align: center;
+    padding: 0px;
+  }
+}
+
+/* ***css bhukbhuk** */
+
+.blinkbody {
+  width: auto;
+  height: auoto;
+  display: flex;
+}
+.blink2 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 4px;
+  /* overflow-x: scroll; */
+}
+.blink2 li {
+  /* font-family: cursive; */
+  font-size: 13px;
+  font-weight: 700;
+  background-color: #116257;
+  color: white;
+  padding: 3px 0px;
+  margin-right: 35px;
+  /* display: inline-block; */
+  border-radius: 3px;
+  margin-left: -32px;
+  /* width: fit-content !important; */
+  min-width: 248px;
+  text-align: center;
+}
+
+body{
+  overflow-x: hidden !important;
+}
+.blink2 li span {
+  animation: blink2 1s linear infinite;
+}
+@keyframes blink2 {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+@media screen and (max-width:992px) {
+  .sidebar_respon{
+    display: none !important;
+  }
+  .nav_tab_bg{
+    height: 7rem !important;
+  }
+}
+
+@media screen and (max-width:600px) {
+
+  .Scrollbarss{
+    width: 100% !important;
+    height: 1% !important
+  }
+
+  .main_root .games_images .img_item{
+    margin-right: 0px !important;
+  }
+}
+@media  (min-width:601px) {
+
+  .Scrollbarss{
+    width: 100% !important;
+    height: 4%  !important
+  }
+}
+
+
+
+.he{
+  color: red !important;
+}
+
+
+.mobile_upper_links{
+  flex: 1 1 auto;
+  text-align: center;
+  margin-bottom: 0;
+  padding-top: 12px;
+  text-transform: uppercase;
+  font-weight: bold ;
+  font-size: 12px !important;
+  color: white !important;
+  border-right: 1px solid white !important;
+  padding-bottom: 12px;
+  background-color: #8a4e00;
+}
+
+
+.view_by{
+  font-weight:600;
+  font-size: 12px ;
+  color: black !important;
+}
+
+
+
+@media only screen and (max-width:600px){
+  .top_header{
+    margin-bottom: 0px !important;
+  }
+
+ 
+
+
+
+
+
+
+.mbl_version_table_daata{
+  border: 1px solid #d6d8d7;
+  background-color: #f1f5f8;
+  padding: 15px 10px !important;
+}
+
+
+.name_tabl{
+  font-weight: bolder;
+  color: black;
+  font-size: 14px;
+}
+
+.live_icons{
+  background-color: #97cc00;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+}
+
+
+.about_th{
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.info_game{
+  color: black;
+  font-size: 12px;
+  margin-bottom: 0px !important;
+}
+
+.top_header{
+padding-bottom: 20px !important;
+
+}
+
+
+
+.ganme_numberrr{
+  font-weight: bolder;
+  font-size: 12px ;
+  color: black !important;
+}
+}
+
+
+.right{
+  float: right !important;
+}
+
+.drop_mb_down
+{
+background-color: #8a4e00;
+border: 1px solid #116257;
+color: white !important;
+font-weight: 500;
+font-size: 13px;
+padding: 2px;
+line-height: normal;
+height: auto;
+text-transform: uppercase !important;
+width: 150px !important;
+}
+
+
+.main_here_drop .dropdown-menu.show {
+background-color: #8a4e00 !important;
+color: white !important;
+}
+
+
+
+.blue_mbn{
+  background-color: #72BBEF;
+  height: 24px;
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  /* float: left; */
+  cursor: pointer;
+  width: 50%;
+  color: black;
+}
+
+.pink_mbn{
+  background-color: #FAA9BA;
+
+  height: 24px;
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  /* float: left; */
+  cursor: pointer;
+  width: 50%;
+  color: black;
+}
+
+
+.scroll-verti{
+  height: 200px !important;
+  overflow-y: scroll !important;
+}

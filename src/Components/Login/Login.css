@@ -1,0 +1,58 @@
+.main_loginPage{
+  background-image: url(../Assets/userbg.jpg) !important;
+  background-size: cover;
+  background-repeat: no-repeat ;
+  min-height: 100vh ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new_login_form{
+    /* background-color: white !important; */
+    padding: 20px 10px !important;
+    border: 2px solid  #FFC105 !important;
+    border-radius: 8px !important;
+}
+
+
+.inpuT_main_div{
+    position: relative;
+}
+
+.input_icons{
+    position: absolute;
+    right: 1rem;
+    color: #FFC105;
+    top: 15px;
+}
+.login_heading{
+    color: #FFC105 !important;
+    font-size: 1.5rem;
+    text-transform:capitalize;
+    text-align: center !important;
+   
+}
+.fas {
+    font-family: Font Awesome\ 5 Free;
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    color: red !important;
+}
+
+
+.new_login_form h1{
+    font-size: 2rem !important;
+}
+
+
+@media only screen and (max-width:600px){
+    .main_loginPage {
+        min-height: auto !important;
+    }
+}

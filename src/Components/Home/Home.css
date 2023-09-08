@@ -1,0 +1,55 @@
+@media(min-width:1023px){
+.slick-slider{
+width: 96% !important;
+margin-left: 1.8% !important;
+}
+.slide_toggler{
+    display: none;
+}
+}
+
+#winner_carousel .item{
+    width: 212.5px !important;
+    margin-left: 10px !important;
+}
+
+.carousel .control-dots,.carousel.carousel-slider .control-arrow{
+    display: none !important;
+}
+
+.carousel .slide{
+    margin: 10px !important;
+    min-width: 212.5px;
+}
+
+.owl-carousel{
+    display: block !important;
+}
+
+
+@media(max-width:1023px){
+    .slick-slide img{
+        width: 100% !important;
+        
+    }
+    .slick-track{
+        margin-top: 10% !important;
+    }
+
+    .slick-slider{
+        width: 96% !important;
+        margin-left: 1.8% !important;
+        margin-top: 32% !important;
+        }
+
+}
+
+.slick-prev, .slick-next{
+    display: none !important;
+}
+
+@media(max-width:600px){
+    .Nav_tp{
+        margin-top: -16% !important;
+    }
+}

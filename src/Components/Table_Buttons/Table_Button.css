@@ -1,0 +1,49 @@
+.tablebtn{
+    border-radius: 0 20px;
+    margin:0 5px;
+    color: #ffffff;
+    border-color: var(--primary-bg-color);
+}
+.bg-pp{
+    /* background:linear-gradient(to bottom, #023d2f 0%,#068267 100%); */
+    background: #a1a1a1 !important;
+    border-radius: 7px;
+    color: #fff;
+    font-weight: 600;  
+    padding-right: 1rem!important;
+    padding-left: 1rem!important;
+    font-size: 12px !important;
+      
+}
+.Table_Buttons{
+    overflow-x: scroll;
+}
+.Table_Buttons::-webkit-scrollbar{
+    width: 0px;
+}
+
+/* td {
+    padding: 0rem 0.2rem;
+    color: white;
+    font-size: .96rem;
+    text-align: center;
+} */
+
+.px-6 {
+    padding-right: 0.5rem!important;
+    padding-left: 0.5rem!important;
+}
+
+.Table_Buttons {
+ margin-left: 3 px !important;
+}
+
+
+
+
+.tablebtn {
+    /* background: linear-gradient(to bottom, #023d2f 0%,#068267 100%) !important; */
+    background: #a1a1a1 !important;
+    font-size: 12px;
+    
+}
